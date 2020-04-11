@@ -9,6 +9,7 @@ var express       = require("express"),
     User          = require("./models/users"),
     seedDB        = require("./seeds");
 
+var commentRoutes = require("./routes/comments")
 
 mongoose.connect("mongodb://localhost/yelpcamp", {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended:true}));

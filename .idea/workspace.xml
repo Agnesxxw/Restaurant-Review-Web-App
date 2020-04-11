@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e6f467c-8099-4e80-8026-6353241d5cc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v6/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/v6/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/v6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/v8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/v8" />
+      <recent name="$PROJECT_DIR$/v7" />
       <recent name="$PROJECT_DIR$/v6" />
       <recent name="$PROJECT_DIR$/v5" />
       <recent name="$PROJECT_DIR$/v4" />
@@ -106,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586431286552</updated>
       <workItem from="1586431304187" duration="6961000" />
-      <workItem from="1586493192400" duration="14040000" />
+      <workItem from="1586493192400" duration="19949000" />
     </task>
     <servers />
   </component>
