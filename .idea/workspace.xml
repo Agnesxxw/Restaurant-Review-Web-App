@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5e6f467c-8099-4e80-8026-6353241d5cc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/routes/campgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/v9/routes/campgrounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/routes/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/v9/routes/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/models/campground.js" beforeDir="false" afterPath="$PROJECT_DIR$/v10/models/campground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/routes/campgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/v10/routes/campgrounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/views/campgrounds/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/campgrounds/edit.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/views/campgrounds/new.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/campgrounds/new.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/views/campgrounds/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/campgrounds/show.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/views/landing.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/landing.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586431286552</updated>
       <workItem from="1586431304187" duration="6961000" />
-      <workItem from="1586493192400" duration="38803000" />
+      <workItem from="1586493192400" duration="40570000" />
     </task>
     <servers />
   </component>
