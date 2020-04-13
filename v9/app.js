@@ -6,6 +6,7 @@ var express       = require("express"),
     Comment       = require("./models/comment"),
     passport      = require("passport"),
     localStrategy = require("passport-local"),
+    methodOverride = require("method-override"),
     User          = require("./models/users"),
     seedDB        = require("./seeds");
 
@@ -18,6 +19,7 @@ mongoose.connect("mongodb://localhost/yelpcamp", {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public")); //dirname is the current script working path
+app.use(methodOverride("_method"));
 // seedDB(); // seed the database
 
 

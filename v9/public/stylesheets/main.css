@@ -13,3 +13,7 @@ body {
 .showComments {
     text-align: justify-all;
 }
+
+#deleteForm {
+    display: inline;
+}

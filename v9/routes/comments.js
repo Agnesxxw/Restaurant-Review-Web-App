@@ -40,7 +40,39 @@ router.post("/", isLoggedIn, function (req,res) {
     });
 });
 
-//middleware
+router.get("/:comment_id/edit", checkCommentsOwnership, function (req, res) {
+    Comment.findById(req.params.comment_id, function (err, foundComment) {
+        if(err){
+            res.redirect("back");
+        } else {
+            res.render("comments/edit", {campground_id: req.params.id, comment: foundComment});
+        }
+    });
+
+});
+// comment update
+router.put("/:comment_id", checkCommentsOwnership, function (req, res) {
+    Comment.findByIdAndUpdate(req.params.comment_id, req.body.comment, function (err, updatedComment) {
+        if(err){
+            res.redirect("back");
+        } else {
+            res.redirect("/campgrounds/" + req.params.id);
+        }
+    })
+});
+
+// comment destroy routes
+router.delete("/:comment_id", checkCommentsOwnership, function (req, res) {
+    Comment.findByIdAndRemove(req.params.comment_id, function (err) {
+        if(err){
+            res.redirect("back");
+        } else {
+            res.redirect("/campgrounds/" + req.params.id); // this id is the campground id
+        }
+    });
+});
+
+//middleware: check if loggedin
 function isLoggedIn(req, res, next){
     if(req.isAuthenticated()){
         return next();
@@ -49,4 +81,23 @@ function isLoggedIn(req, res, next){
     }
 }
 
+// middleWare: Check ownership
+function checkCommentsOwnership(req, res, next){
+    if(req.isAuthenticated()){
+        Comment.findById(req.params.comment_id, function (err, foundComment) {
+            if(err){
+                res.redirect("back");
+            }else{
+                if(foundComment.author.id.equals(req.user._id)){
+                    //cannot do '==' or '===', since 'foundCampground.author.id' is a mongoose object, while 'req.user._id' is a string
+                    next();
+                } else {
+                    res.redirect("back");
+                }
+            }
+        });
+    } else{
+        res.redirect("back"); // the previous page they were at
+    }
+}
 module.exports = router;
