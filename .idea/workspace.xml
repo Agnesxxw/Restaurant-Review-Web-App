@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e6f467c-8099-4e80-8026-6353241d5cc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v8/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/v8/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/v8/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/v9/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/models/campground.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/models/comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/models/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/v9/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/v9/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/public/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/v9/public/stylesheets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v9/routes/campgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/v9/routes/campgrounds.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v9/routes/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/v9/routes/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/views/campgrounds/new.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v9/views/campgrounds/new.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9/views/campgrounds/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v9/views/campgrounds/show.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/v9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/v10" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/v10" />
       <recent name="$PROJECT_DIR$/v9" />
       <recent name="$PROJECT_DIR$/v8" />
       <recent name="$PROJECT_DIR$/v7" />
       <recent name="$PROJECT_DIR$/v6" />
-      <recent name="$PROJECT_DIR$/v5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/v5/public/stylesheets" />
@@ -121,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586431286552</updated>
       <workItem from="1586431304187" duration="6961000" />
-      <workItem from="1586493192400" duration="33179000" />
+      <workItem from="1586493192400" duration="38803000" />
     </task>
     <servers />
   </component>
@@ -137,5 +126,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1586505057621" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586758288562">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586758288562" />
   </component>
 </project>
