@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e6f467c-8099-4e80-8026-6353241d5cc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v10/models/campground.js" beforeDir="false" afterPath="$PROJECT_DIR$/v10/models/campground.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v10/routes/campgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/v10/routes/campgrounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v10/views/campgrounds/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/campgrounds/edit.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v10/views/campgrounds/new.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/campgrounds/new.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v10/views/campgrounds/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/campgrounds/show.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v10/public/stylesheets/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/v10/public/stylesheets/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v10/views/landing.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/v10/views/landing.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/v10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/v11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,20 +43,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="RemoteServers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/v10" />
-      <recent name="$PROJECT_DIR$/v9" />
-      <recent name="$PROJECT_DIR$/v8" />
-      <recent name="$PROJECT_DIR$/v7" />
-      <recent name="$PROJECT_DIR$/v6" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/v5/public/stylesheets" />
       <recent name="$PROJECT_DIR$/v4/views" />
       <recent name="$PROJECT_DIR$/v4/views/campgrounds" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/v11" />
+      <recent name="$PROJECT_DIR$/v10" />
+      <recent name="$PROJECT_DIR$/v9" />
+      <recent name="$PROJECT_DIR$/v8" />
+      <recent name="$PROJECT_DIR$/v7" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,7 +110,11 @@
       <option name="presentableId" value="Default" />
       <updated>1586431286552</updated>
       <workItem from="1586431304187" duration="6961000" />
-      <workItem from="1586493192400" duration="40570000" />
+      <workItem from="1586493192400" duration="44685000" />
+      <workItem from="1586770354794" duration="480000" />
+      <workItem from="1586790978835" duration="1740000" />
+      <workItem from="1587006451980" duration="22000" />
+      <workItem from="1587446406083" duration="4640000" />
     </task>
     <servers />
   </component>
@@ -122,10 +122,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="229" y="89" key="SettingsEditor" timestamp="1586431359611">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1586771446268">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586431359611" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586771446268" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1586505057621">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
